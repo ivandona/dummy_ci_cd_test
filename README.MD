@@ -20,15 +20,6 @@ dummy_ci_cd_test/
 - **`Dockerfile`** builds the project and runs tests in a container
 - **GitHub Actions** automatically builds and runs the container on every push to `main`
 
-## ✅ Running Locally
-
-To build and run the project using Docker:
-
-```bash
-docker build -t dummy_ci_cd_test .
-docker run dummy_ci_cd_test
-```
-
 ## 🛠️ GitHub Actions Workflow
 
 Located at `.github/workflows/ci.yml`, this workflow:
