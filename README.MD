@@ -1,4 +1,4 @@
-# Hello C Docker CI
+# Simple C Docker CI example
 
 This is a minimal C project that uses **Docker** and **GitHub Actions** for continuous integration.
 
@@ -25,8 +25,8 @@ dummy_ci_cd_test/
 To build and run the project using Docker:
 
 ```bash
-docker build -t hello-c .
-docker run hello-c
+docker build -t dummy_ci_cd_test .
+docker run dummy_ci_cd_test
 ```
 
 ## 🛠️ GitHub Actions Workflow
